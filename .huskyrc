@@ -1,0 +1,6 @@
+{
+    "hooks": {
+        "post-commit": "eslint --ext .js,.jsx src/",
+        "pre-push": "eslint --ext .js,.jsx src/"
+    }
+}

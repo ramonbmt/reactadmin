@@ -1,0 +1,47 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "chrome": 60
+                },
+                "useBuiltIns": "usage",
+                "shippedProposals": true,
+                "corejs": 3,
+                "modules": false
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            }
+        ],
+        [
+            "@babel/plugin-proposal-class-properties",
+            {
+                "loose": true
+            }
+        ],
+        [
+            "emotion",
+            {
+                "sourceMap": true,
+                "autoLabel": true
+            }
+        ],
+        [
+            "@babel/plugin-proposal-optional-chaining",
+            {
+                "loose": false
+            }
+        ],
+        "@babel/plugin-syntax-dynamic-import",
+        "babel-plugin-lodash",
+        "react-hot-loader/babel"
+    ]
+}

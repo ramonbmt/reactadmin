@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/source-sans-pro/SourceSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/source-sans-pro/SourceSansPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('../../assets/fonts/univers-lt-std/UniversLTStd.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('../../assets/fonts/univers-lt-std/UniversLTStd-LightObl.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('../../assets/fonts/univers-lt-std/UniversLTStd-BoldObl.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('../../assets/fonts/univers-lt-std/UniversLTStd-Obl.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('../../assets/fonts/univers-lt-std/UniversLTStd-Bold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+html {
+    font-family: var(--main-font-family);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+    > div {
+        height: inherit;
+        width: inherit;
+    }
+}
