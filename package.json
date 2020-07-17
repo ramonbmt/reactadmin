@@ -56,7 +56,7 @@
     "graphql-tools": "^4.0.4",
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "lodash-decorators": "^6.0.1",
     "material-ui-pickers": "^2.2.4",
     "mdi-material-ui": "^5.11.0",
